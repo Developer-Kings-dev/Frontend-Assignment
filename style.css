@@ -1,0 +1,94 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  section a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  
+  /* Contact Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
